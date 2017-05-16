@@ -1,0 +1,52 @@
+# --table-start--
+dataClass=com.nantes.polytech.netapsys.ormlite.model.Member
+tableName=member_tab
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=member_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=lastname
+columnName=member_lastname
+# --field-end--
+# --field-start--
+fieldName=firstname
+columnName=member_firstname
+# --field-end--
+# --field-start--
+fieldName=age
+columnName=member_age
+# --field-end--
+# --field-start--
+fieldName=address
+columnName=member_address
+# --field-end--
+# --field-start--
+fieldName=tel
+columnName=member_tel
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nantes.polytech.netapsys.ormlite.model.Inscription
+tableName=inscription_tab
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=idmember
+columnName=id_member
+# --field-end--
+# --field-start--
+fieldName=idactivity
+columnName=id_activity
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Netapsys</string>
+    <string name="database_activity_title">Sélectionnez les bases de données à comparer</string>
+    <string name="request_activity_title">Choisissez le type de requête à lancer</string>
+    <string name="btn_comparer">Comparer</string>
+    <string name="btn_comparer_erreur">Sélectionnez au moins une base de donnée.</string>
+    <string name="select">Sélection</string>
+    <string name="insert">Insertion</string>
+    <string name="update">Mise à jour</string>
+    <string name="delete">Suppression</string>
+    <string name="back">Retour</string>
+    <string name="temps">Temps d\'exécution (microsecondes)</string>
+    <string name="bdd">Ressources</string>
+    <string name="font">Roboto Regular</string>
+</resources>

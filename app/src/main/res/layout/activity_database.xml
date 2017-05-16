@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_database"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    tools:context="com.nantes.polytech.netapsys.activity.DatabaseActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/database_activity_title"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="16sp"
+        android:fontFamily="Roboto Regular"
+        android:textStyle="bold"
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_below="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:clickable="true"
+        >
+    </ListView>
+
+    <Button
+        android:id="@+id/btnComparer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_comparer"
+        android:layout_below="@id/listView"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_request"
+        />
+
+</RelativeLayout>
