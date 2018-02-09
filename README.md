@@ -19,6 +19,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 You need to install Android Studio on your computer. You can download it on their official website (https://developer.android.com/studio/index.html).
 
+Simply clone the repository and import it as a project in Android Studio.
+
 ## Authors
 
 * [Aurélie DURAND](https://github.com/AurelieDrn)
